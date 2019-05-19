@@ -1,0 +1,14 @@
+// 轮播图样式修改
+.el-carousel__container {
+    width: $All-width;
+    margin: 0.5rem auto;
+    img {
+        height: 100%;
+        width: 100%;
+    }
+}
+// 分页
+.el-pagination {
+    text-align: center;
+    margin-top: 2rem;
+}

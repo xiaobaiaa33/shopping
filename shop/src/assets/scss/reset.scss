@@ -1,0 +1,25 @@
+// 样式初始化
+body,div,p,ol,ul,h1,h2,h3,h4,h5,h6,section,input,dl,hr {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:$All-color;
+}
+
+.clear::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.table::before {
+    content: "";
+    display: table;
+}
