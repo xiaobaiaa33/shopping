@@ -1,7 +1,9 @@
 const express=require("express");
 const cors=require("cors");
 const app=express();
-app.listen(3000);
+app.listen(3000,()=>{
+    console.log("连接成功！3000端口")
+});
 
 app.use(cors({
     "origin":["http://localhost:8080","http://127.0.0.1:8080"],
